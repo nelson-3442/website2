@@ -104,6 +104,11 @@ display: flex;
 
   font-weight:bold;
   font-size: 30px;
+margin-left: 30px;
+border-style: solid;
+padding: 10px;
+
+
 }
 
 
@@ -377,6 +382,34 @@ margin-bottom: 20px;
 }
 
 
+.ir-a-inicio:hover {
+  background-color: #f70d0d; 
+  
+}
+
+
+
+.custom-link
+{
+
+border: solid; 
+font-size: 16px;
+margin-left: 30px;
+padding: 10px 10px;
+background-color: #578FCA;
+color: white;
+  text-decoration: none; /* optional: removes underline */
+
+
+}
+
+
+.custom-link:link,
+.custom-link:visited {
+  color: #FFC107;
+}
+
+
 
 </style>
 </head>
@@ -414,7 +447,10 @@ margin-bottom: 20px;
 
 
 
-<a href="#section2">
+<a href="#section2"
+class="custom-link"
+
+>
   Ir a titulo 2
 </a>
 
@@ -543,29 +579,20 @@ Titulo 2
 <a href="#section1"
 id="section2"
 class="ir-a-inicio"
+style="
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 20px;
 
+"
 > 
 
 
-
-
-<button 
-class="boton-titulo-2"
-type="button" 
-style="margin-left: 30px;"
-
->
 ir a inicio
-</button>
-
-
-
-
 
 </a>
 
 </h1>
-
 
 
 <p class="paragraph2"
