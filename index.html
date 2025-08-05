@@ -95,7 +95,8 @@ display: flex;
 .titulo1{
   font-weight: bold;
   font-size: 55px;
-
+ display: block;
+ 
 }
 
 
@@ -125,6 +126,40 @@ text-decoration: none;
   color: #0A5EB0; 
   text-decoration: none;             /* change text color on hover */
 }
+
+
+
+.ir-a-inicio1 {
+
+  font-weight:bold;
+  font-size: 16px;
+
+border-style: solid;
+padding: 10px;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 20px;
+background-color: #FF3F33;
+text-decoration: none;
+
+
+}
+
+
+.ir-a-inicio1:link,
+.ir-a-inicio1:visited {
+  color: #4ED7F1;
+}
+
+.ir-a-inicio1:hover {
+  background-color: #5CB338;  /* darker blue on hover */
+  color: #0A5EB0; 
+  text-decoration: none;             /* change text color on hover */
+}
+
+
+
+
 
 .boton-titulo2{
   font-size: 30px;
@@ -350,14 +385,9 @@ body {
   top: 0;
 }
 
-/*  */
 
-@media screen and (max-width: 768px) {
-  .contenedor1 {
-    flex-direction: column;
-    padding: 10px;
-  }
-}
+
+
 
 body, html {
   overflow-x: hidden;
@@ -392,9 +422,33 @@ margin-bottom: 20px;
     width: auto;
     margin: 0 auto; /* ensures centering remains */
   }
+ 
+   
+
 }
 
 
+@media only screen and (max-width: 800px) {
+  
+
+.titulo1{
+  font-weight: bold;
+  font-size: 35px;
+   display: block;
+ margin-left: 20px;
+text-align: left;
+margin-bottom: 10px;
+    
+
+}
+
+.ir-a-inicio {
+    margin-left: 5px;
+    display: inline-block;
+  }
+
+
+}
 
 
 
@@ -578,7 +632,7 @@ style="height: 400px;"
 
 </div>
 
-<h1 style="margin-left: 30px;" 
+<h1  
 class="titulo1"
 id="section123"
 > 
@@ -591,7 +645,7 @@ Titulo 1 </h1>
 
 <a href="#section1"
 
-class="ir-a-inicio"
+class="ir-a-inicio1"
 
 > 
 
@@ -601,7 +655,7 @@ Ir a inicio
 </a>
 
 
-
+<p>
 
 
 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. 
