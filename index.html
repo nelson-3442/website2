@@ -107,11 +107,23 @@ display: flex;
 margin-left: 30px;
 border-style: solid;
 padding: 10px;
-
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 20px;
+background-color: #FF3F33;
+text-decoration: none;
 
 }
 
+.ir-a-inicio:link,
+.ir-a-inicio:visited {
+  color: #4ED7F1;
+}
 
+.ir-a-inicio:hover {
+  background-color: #5CB338;  /* darker blue on hover */
+  color: #0A5EB0;              /* change text color on hover */
+}
 
 .boton-titulo2{
   font-size: 30px;
@@ -382,10 +394,7 @@ margin-bottom: 20px;
 }
 
 
-.ir-a-inicio:hover {
-  background-color: #f70d0d; 
-  
-}
+
 
 
 
@@ -397,8 +406,7 @@ font-size: 16px;
 margin-left: 30px;
 padding: 10px 10px;
 background-color: #578FCA;
-color: white;
-  text-decoration: none; /* optional: removes underline */
+text-decoration: none; /* optional: removes underline */
 
 
 }
@@ -406,8 +414,18 @@ color: white;
 
 .custom-link:link,
 .custom-link:visited {
-  color: #FFC107;
+  color: #0B1D51;
+  text-decoration: none;
 }
+
+
+.custom-link:hover {
+  background-color: #CC66DA;  /* darker blue on hover */
+  color: #2F5249;              /* change text color on hover */
+}
+
+
+
 
 
 
@@ -579,12 +597,7 @@ Titulo 2
 <a href="#section1"
 id="section2"
 class="ir-a-inicio"
-style="
-display: inline-block;
-margin-top: 10px;
-margin-bottom: 20px;
 
-"
 > 
 
 
@@ -592,7 +605,7 @@ ir a inicio
 
 </a>
 
-</h1>
+
 
 
 <p class="paragraph2"
