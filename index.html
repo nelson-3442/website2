@@ -9,6 +9,15 @@
   >
   <link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="style2.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+
+
+
 <style>
 
 
@@ -94,14 +103,14 @@ display: flex;
 
 .titulo1{
   font-weight: bold;
-  font-size: 55px;
+  font-size: 100px;
  display: block;
  
 }
 
 
 
-.ir-a-inicio {
+.ir-a-inicio2 {
 
   font-weight:bold;
   font-size: 16px;
@@ -116,12 +125,12 @@ text-decoration: none;
 
 }
 
-.ir-a-inicio:link,
-.ir-a-inicio:visited {
+.ir-a-inicio2:link,
+.ir-a-inicio2:visited {
   color: #4ED7F1;
 }
 
-.ir-a-inicio:hover {
+.ir-a-inicio2:hover {
   background-color: #5CB338;  /* darker blue on hover */
   color: #0A5EB0; 
   text-decoration: none;             /* change text color on hover */
@@ -141,7 +150,7 @@ margin-top: 10px;
 margin-bottom: 20px;
 background-color: #FF3F33;
 text-decoration: none;
-
+margin-left: 15px;
 
 }
 
@@ -157,25 +166,32 @@ text-decoration: none;
   text-decoration: none;             /* change text color on hover */
 }
 
-
-
-
-
-.boton-titulo2{
-  font-size: 30px;
-  border: solid;
-  padding: 10px;
+.ir-a-inicio3 {
+font-weight:bold;
+  font-size: 16px;
+margin-left: 20px;
+border-style: solid;
+padding: 10px;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 20px;
+background-color: #FF3F33;
+text-decoration: none;
 }
 
- 
-.boton-titulo-2 {
-  margin-top: -20px;
-  margin-left: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  
-  
+.ir-a-inicio3:link,
+.ir-a-inicio3:visited {
+  color: #4ED7F1;
 }
+
+.ir-a-inicio3:hover {
+  background-color: #5CB338;  /* darker blue on hover */
+  color: #0A5EB0; 
+  text-decoration: none;             /* change text color on hover */
+}
+
+
+
 
 
 
@@ -232,17 +248,6 @@ font-size: 30px;
 
 
 
-
-
-
-
-
-.h1style
-{
-margin-left: 30px;
-  margin-top: 20px;
-  margin-bottom: -20px;
-}
 
 
 
@@ -433,20 +438,24 @@ margin-bottom: 20px;
 
 .titulo1{
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
    display: block;
- margin-left: 20px;
+ margin-left: 15px;
 text-align: left;
-margin-bottom: 10px;
+
     
 
 }
 
 .ir-a-inicio {
-    margin-left: 5px;
+    margin-left: 20px;
     display: inline-block;
+    
   }
 
+  .ir-a-inicio1{
+    margin-bottom: 10px;
+  }
 
 }
 
@@ -480,6 +489,22 @@ margin-right: -15px; /* or any spacing you like */
 }
 
 
+.paragraph12 {
+  margin-left: 15px;
+}
+
+
+
+
+.merriweather-custom135 {
+  font-family: "Merriweather";
+  
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
 
 
 
@@ -511,7 +536,6 @@ class="custom-link"
   Ir a titulo 1
 </a>
 
-<a></a>
 
   
 <a href="#section2"
@@ -521,7 +545,7 @@ class="custom-link"
   Ir a titulo 2
 </a>
 
-<a></a>
+
 
 
 
@@ -533,24 +557,13 @@ class="custom-link"
   Ir a titulo 3
 </a>
 
-<a></a>
+
 
 
   
- 
 
 
-
-
-
-
-
-
-
-
-
-
-<h1 class="h1style">Your product here: </h1>
+<h1 class="merriweather-custom135">Your product here: </h1>
 <br>
 <br>
 
@@ -638,9 +651,7 @@ id="section123"
 > 
 
 Titulo 1 </h1>
-<p class="paragraph1"
 
->
 
 
 <a href="#section1"
@@ -655,7 +666,9 @@ Ir a inicio
 </a>
 
 
-<p>
+
+
+<p class="paragraph12">
 
 
 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. 
@@ -715,7 +728,7 @@ Titulo 3</h1>
 
 <a href="#section1"
 id="section2"
-class="ir-a-inicio"
+class="ir-a-inicio3"
 
 > 
 
