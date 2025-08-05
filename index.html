@@ -409,7 +409,7 @@ padding: 10px 10px;
 background-color: #578FCA;
 text-decoration: none; /* optional: removes underline */
 margin-top: 20px;
-
+margin-right: -15px; /* or any spacing you like */
 }
 
 
@@ -450,24 +450,16 @@ margin-top: 20px;
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   
 
+<a href="#section123"
+class="custom-link"
 
-<!-- 
+>
+  Ir a titulo 1
+</a>
 
-
-
--->
-  
- 
-
-
-
+<a></a>
 
   
-
-
-
-
-
 <a href="#section2"
 class="custom-link"
 
@@ -475,7 +467,19 @@ class="custom-link"
   Ir a titulo 2
 </a>
 
+<a></a>
 
+
+
+
+<a href="#section3"
+class="custom-link"
+
+>
+  Ir a titulo 3
+</a>
+
+<a></a>
 
 
   
@@ -575,10 +579,30 @@ style="height: 400px;"
 </div>
 
 <h1 style="margin-left: 30px;" 
-class="titulo1"> Título 1 </h1>
+class="titulo1"
+id="section123"
+> 
+
+Titulo 1 </h1>
 <p class="paragraph1"
 
 >
+
+
+<a href="#section1"
+
+class="ir-a-inicio"
+
+> 
+
+
+Ir a inicio
+
+</a>
+
+
+
+
 
 Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. 
 <br><br>
@@ -604,7 +628,7 @@ class="ir-a-inicio"
 > 
 
 
-ir a inicio
+Ir a inicio
 
 </a>
 
@@ -629,11 +653,22 @@ style="font-weight: bold ;
 font-size: 55px;
 
 "
+id="section3"
 >
 Titulo 3</h1>
 
 </div>
 
+<a href="#section1"
+id="section2"
+class="ir-a-inicio"
+
+> 
+
+
+Ir a inicio
+
+</a>
 
 
 <p class="paragraph3">
